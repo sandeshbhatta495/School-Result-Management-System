@@ -66,13 +66,8 @@ This project has been an **exciting milestone** in my Python journey. Through th
 
 Feel free to contribute by submitting issues or pull requests!
 
-## 📜 License
 
-This project is licensed under the **MIT License**.
-
----
-
-📌 **Author**: Sandesh Bhatta \
+📌 **Author**: Sandesh Bhatta 
 📌 **Portfolio**: [www.sandeshbhatta495.com.np](http://www.sandeshbhatta495.com.np)
 
 
