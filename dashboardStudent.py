@@ -4,7 +4,7 @@ from tkinter import messagebox,ttk
 from PIL import Image,ImageTk
 from course import CourseClass
 from student import StudentClass
-from result import ResultClass
+from Result import ResultClass
 from ViewResult import ViewClass
 import sqlite3 
 import os

@@ -4,21 +4,26 @@ from tkinter import messagebox
 from PIL import Image,ImageTk 
 from course import CourseClass
 from student import StudentClass
-from result import ResultClass
+from Result import ResultClass
 from ViewResult import ViewClass
 import sqlite3 
 import os
+from PIL import Image, ImageTk  
 class ResultManagementSystem:
     def __init__(self,home):
         self.home=home
-        self.home.title("Student Result Management System")
+        self.home.title("School Result Management System")
         self.home.geometry("1450x700+0+0")
         self.home.config(bg="white")
 
-        #Importing image logo (icons)
-        self.logo=Image.open("images/logo.jpg")
-        self.logo=self.logo.resize((90,35),Image.Resampling.LANCZOS)
-        self.logo=ImageTk.PhotoImage(self.logo)
+       
+    
+        from PIL import Image, ImageTk
+
+        # Load background image
+        bg_image = Image.open("images/background.jpg")
+        bg_image = bg_image.resize((500, 500),Image.ANTIALIAS)  # Fixed here
+        bg_image = ImageTk.PhotoImage(bg_image)
 
         #Title of project
         title=Label(self.home,text="Student Result Management",padx=10,compound=LEFT,image=self.logo,font=("times new roman",20,"bold"),bg="Navy Blue",fg="white").place(x=0,y=0,relwidth=1,height=50)
